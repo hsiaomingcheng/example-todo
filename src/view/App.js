@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 
 function App() {
     const [todo, setTodo] = useState('');
@@ -16,7 +16,7 @@ function App() {
     return (
         <div className="App">
             <div>
-                <input type="text" value={todo} onChange={handleUpdateText}/>
+                <input type="text" value={todo} onChange={handleUpdateText} />
                 <button onClick={handleAdd}>新增</button>
             </div>
             {
